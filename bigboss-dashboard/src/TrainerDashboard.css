@@ -1,0 +1,72 @@
+.dashboard-container {
+  padding: 20px;
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dashboard-light {
+  background-color: #f9fafb;
+  color: #000000;
+}
+
+.toggle-button {
+  margin-bottom: 10px;
+  padding: 8px 14px;
+  background-color: #111;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.4s ease;
+}
+
+.toggle-button.light {
+  background-color: #f1f1f1;
+  color: #111;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.responsive-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.responsive-table.dark {
+  background-color: #1e1e1e;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 300px;
+}
+
+.input-field {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
